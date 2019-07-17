@@ -8,10 +8,8 @@
 # rotate_left3([7, 0, 0]) → [0, 0, 7]
 
 def rotate_left3(nums):
-    print(nums[1:])
     out = nums[1:]
     out.append(nums[0])
-    print(out)
     return out
 
 print(rotate_left3([1, 2, 3]))
